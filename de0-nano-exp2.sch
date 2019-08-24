@@ -537,7 +537,7 @@ U 1 1 5CF44AAE
 P 5300 6250
 F 0 "J4" H 5350 7367 50  0000 C CNN
 F 1 "PIDP11_HDR" H 5350 7276 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x20_Pitch2.54mm" H 5300 6250 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_2x20_P2.54mm_Vertical" H 5300 6250 50  0001 C CNN
 F 3 "~" H 5300 6250 50  0001 C CNN
 	1    5300 6250
 	1    0    0    -1  
@@ -715,7 +715,7 @@ U 1 1 5CF31505
 P 2750 6250
 F 0 "J2" H 2800 7367 50  0000 C CNN
 F 1 "DE0_Nano_GPIO1" H 2800 7276 50  0000 C CNN
-F 2 "Connectors_IDC:IDC-Header_2x20_Pitch2.54mm_Straight" H 2750 6250 50  0001 C CNN
+F 2 "Connector_IDC:IDC-Header_2x20_P2.54mm_Vertical" H 2750 6250 50  0001 C CNN
 F 3 "~" H 2750 6250 50  0001 C CNN
 	1    2750 6250
 	1    0    0    -1  
@@ -776,7 +776,7 @@ U 1 1 5CF7965B
 P 2150 1150
 F 0 "C1" H 2265 1196 50  0000 L CNN
 F 1 "0.1uF" H 2265 1105 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2188 1000 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2188 1000 50  0001 C CNN
 F 3 "~" H 2150 1150 50  0001 C CNN
 	1    2150 1150
 	1    0    0    -1  
@@ -802,7 +802,7 @@ U 1 1 5CF7CF3F
 P 3650 2350
 F 0 "J3" H 3420 2339 50  0000 R CNN
 F 1 "USB_B_Micro" H 3420 2248 50  0000 R CNN
-F 2 "Connectors:USB_Mini-B" H 3800 2300 50  0001 C CNN
+F 2 "Connector_USB:USB_Mini-B_Lumberg_2486_01_Horizontal" H 3800 2300 50  0001 C CNN
 F 3 "~" H 3800 2300 50  0001 C CNN
 	1    3650 2350
 	-1   0    0    -1  
@@ -829,7 +829,7 @@ U 1 1 5CF85FF0
 P 2750 1900
 F 0 "C2" H 2800 2000 50  0000 L CNN
 F 1 "1uF" H 2800 1800 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2788 1750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2788 1750 50  0001 C CNN
 F 3 "~" H 2750 1900 50  0001 C CNN
 	1    2750 1900
 	1    0    0    -1  
@@ -865,7 +865,7 @@ U 1 1 5CF87E03
 P 3000 1900
 F 0 "C3" H 3050 2000 50  0000 L CNN
 F 1 "0.1uF" H 3050 1800 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3038 1750 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3038 1750 50  0001 C CNN
 F 3 "~" H 3000 1900 50  0001 C CNN
 	1    3000 1900
 	1    0    0    -1  
@@ -896,7 +896,7 @@ U 1 1 5CF9FD52
 P 950 3400
 F 0 "J1" H 868 3075 50  0000 C CNN
 F 1 "Conn_01x03" H 868 3166 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_1x03_Pitch2.54mm" H 950 3400 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 950 3400 50  0001 C CNN
 F 3 "~" H 950 3400 50  0001 C CNN
 	1    950  3400
 	-1   0    0    1   
@@ -975,7 +975,7 @@ U 1 1 5CFB019B
 P 11000 2550
 F 0 "C4" H 11000 2650 50  0000 L CNN
 F 1 "45uF" H 11000 2450 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0805_HandSoldering" H 11038 2400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 11038 2400 50  0001 C CNN
 F 3 "~" H 11000 2550 50  0001 C CNN
 	1    11000 2550
 	1    0    0    -1  
@@ -1004,70 +1004,19 @@ F 3 "" H 11000 2700 50  0001 C CNN
 	1    11000 2700
 	1    0    0    -1  
 $EndComp
-$Comp
-L de0-nano-exp2-rescue:Conn_02x06_Odd_Even-conn J5
-U 1 1 5CFBC479
-P 10200 5800
-F 0 "J5" H 10250 6217 50  0000 C CNN
-F 1 "PMODNIC100" H 10250 6126 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_2x06_Pitch2.54mm" H 10200 5800 50  0001 C CNN
-F 3 "~" H 10200 5800 50  0001 C CNN
-	1    10200 5800
-	1    0    0    -1  
-$EndComp
-Text Label 10000 5600 2    50   ~ 0
+Text Label 9950 5450 2    50   ~ 0
 ETH_CS
-Text Label 10500 5600 0    50   ~ 0
+Text Label 9950 5550 2    50   ~ 0
 ETH_MOSI
-Text Label 10000 5700 2    50   ~ 0
+Text Label 9950 5650 2    50   ~ 0
 ETH_MISO
-Text Label 10500 5700 0    50   ~ 0
+Text Label 9950 5750 2    50   ~ 0
 ETH_SCLK
-Wire Wire Line
-	10000 5800 9600 5800
-Wire Wire Line
-	9600 5800 9600 6100
-$Comp
-L power:GND #PWR018
-U 1 1 5CFBF3DB
-P 9600 6150
-F 0 "#PWR018" H 9600 5900 50  0001 C CNN
-F 1 "GND" H 9605 5977 50  0000 C CNN
-F 2 "" H 9600 6150 50  0001 C CNN
-F 3 "" H 9600 6150 50  0001 C CNN
-	1    9600 6150
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10500 5800 11000 5800
-Wire Wire Line
-	11000 5800 11000 5750
-$Comp
-L power:+3V3 #PWR023
-U 1 1 5CFC0B18
-P 11000 5750
-F 0 "#PWR023" H 11000 5600 50  0001 C CNN
-F 1 "+3V3" H 11015 5923 50  0000 C CNN
-F 2 "" H 11000 5750 50  0001 C CNN
-F 3 "" H 11000 5750 50  0001 C CNN
-	1    11000 5750
-	1    0    0    -1  
-$EndComp
-Text Label 10000 5900 2    50   ~ 0
+Text Label 10450 5450 0    50   ~ 0
 ETH_INT
-NoConn ~ 10500 5900
-NoConn ~ 10000 6000
-NoConn ~ 10500 6000
-Wire Wire Line
-	10000 6100 9600 6100
-Connection ~ 9600 6100
-Wire Wire Line
-	9600 6100 9600 6150
-Wire Wire Line
-	10500 6100 11000 6100
-Wire Wire Line
-	11000 6100 11000 5800
-Connection ~ 11000 5800
+NoConn ~ 10450 5550
+NoConn ~ 10450 5650
+NoConn ~ 10450 5750
 Text Label 6400 1100 2    50   ~ 0
 UART1_RX
 Wire Wire Line
@@ -1303,7 +1252,7 @@ $EndComp
 NoConn ~ 10800 1900
 NoConn ~ 10800 1600
 NoConn ~ 10800 1450
-NoConn ~ 10000 5900
+NoConn ~ 10450 5450
 NoConn ~ 3350 2550
 NoConn ~ 3050 5750
 NoConn ~ 2550 5750
@@ -1337,7 +1286,7 @@ U 1 1 5D066771
 P 2650 1550
 F 0 "R1" H 2720 1596 50  0000 L CNN
 F 1 "R" H 2720 1505 50  0000 L CNN
-F 2 "Resistors_SMD:R_0805_HandSoldering" V 2580 1550 50  0001 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" V 2580 1550 50  0001 C CNN
 F 3 "~" H 2650 1550 50  0001 C CNN
 	1    2650 1550
 	1    0    0    -1  
@@ -1374,4 +1323,119 @@ $EndComp
 Connection ~ 2000 950 
 Wire Wire Line
 	2000 950  2150 950 
+$Comp
+L Connector_Generic:Conn_02x06_Top_Bottom J5
+U 1 1 5D617270
+P 10150 5650
+F 0 "J5" H 10200 6067 50  0000 C CNN
+F 1 "PMODNIC100" H 10200 5976 50  0000 C CNN
+F 2 "pmodnic:pmodnic" H 10150 5650 50  0001 C CNN
+F 3 "~" H 10150 5650 50  0001 C CNN
+	1    10150 5650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9950 5950 9550 5950
+Wire Wire Line
+	9950 5850 9850 5850
+Wire Wire Line
+	9850 5850 9850 6050
+Wire Wire Line
+	10450 5950 10850 5950
+Wire Wire Line
+	10450 5850 10550 5850
+Wire Wire Line
+	9550 5950 9550 5300
+$Comp
+L power:+3V3 #PWR023
+U 1 1 5CFC0B18
+P 9550 5300
+F 0 "#PWR023" H 9550 5150 50  0001 C CNN
+F 1 "+3V3" H 9565 5473 50  0000 C CNN
+F 2 "" H 9550 5300 50  0001 C CNN
+F 3 "" H 9550 5300 50  0001 C CNN
+	1    9550 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10850 5950 10850 5300
+$Comp
+L power:+3V3 #PWR024
+U 1 1 5D62511F
+P 10850 5300
+F 0 "#PWR024" H 10850 5150 50  0001 C CNN
+F 1 "+3V3" H 10865 5473 50  0000 C CNN
+F 2 "" H 10850 5300 50  0001 C CNN
+F 3 "" H 10850 5300 50  0001 C CNN
+	1    10850 5300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10550 5850 10550 6050
+$Comp
+L power:GND #PWR02
+U 1 1 5D62BC86
+P 10550 6050
+F 0 "#PWR02" H 10550 5800 50  0001 C CNN
+F 1 "GND" H 10555 5877 50  0000 C CNN
+F 2 "" H 10550 6050 50  0001 C CNN
+F 3 "" H 10550 6050 50  0001 C CNN
+	1    10550 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR018
+U 1 1 5CFBF3DB
+P 9850 6050
+F 0 "#PWR018" H 9850 5800 50  0001 C CNN
+F 1 "GND" H 9855 5877 50  0000 C CNN
+F 2 "" H 9850 6050 50  0001 C CNN
+F 3 "" H 9850 6050 50  0001 C CNN
+	1    9850 6050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 5D6995E2
+P 8150 1150
+F 0 "H1" H 8250 1196 50  0000 L CNN
+F 1 "MountingHole" H 8250 1105 50  0000 L CNN
+F 2 "MountingHole_RasPI:MountingHole_RasPI" H 8150 1150 50  0001 C CNN
+F 3 "~" H 8150 1150 50  0001 C CNN
+	1    8150 1150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 5D699F9C
+P 8150 1350
+F 0 "H2" H 8250 1396 50  0000 L CNN
+F 1 "MountingHole" H 8250 1305 50  0000 L CNN
+F 2 "MountingHole_RasPI:MountingHole_RasPI" H 8150 1350 50  0001 C CNN
+F 3 "~" H 8150 1350 50  0001 C CNN
+	1    8150 1350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 5D69A2EC
+P 8150 1550
+F 0 "H3" H 8250 1596 50  0000 L CNN
+F 1 "MountingHole" H 8250 1505 50  0000 L CNN
+F 2 "MountingHole_RasPI:MountingHole_RasPI" H 8150 1550 50  0001 C CNN
+F 3 "~" H 8150 1550 50  0001 C CNN
+	1    8150 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 5D69A795
+P 8150 1750
+F 0 "H4" H 8250 1796 50  0000 L CNN
+F 1 "MountingHole" H 8250 1705 50  0000 L CNN
+F 2 "MountingHole_RasPI:MountingHole_RasPI" H 8150 1750 50  0001 C CNN
+F 3 "~" H 8150 1750 50  0001 C CNN
+	1    8150 1750
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

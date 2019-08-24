@@ -13,7 +13,7 @@ includes some components for use with the PDP2011:
 * Pin headers for connecting to [PMODNIC100](https://store.digilentinc.com/pmod-nic100-network-interface-controller/)
 
 The pinout is a direct implementation of those
-[described Sytse in his blog](http://pdp2011.sytse.net/wordpress/wiring/).
+[described by Sytse in his blog](http://pdp2011.sytse.net/wordpress/wiring/).
 
 The components used are basically what I had lying around.
 If you wish to make this board yourself, consider changing the design to
